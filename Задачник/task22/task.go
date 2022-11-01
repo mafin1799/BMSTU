@@ -44,5 +44,8 @@ func checking(M, N int64) ([]para, error) {
 }
 
 func main() {
-	fmt.Println(checking(0, 10))
+	var M, N int64
+	fmt.Scan(&M)
+	fmt.Scan(&N)
+	fmt.Println(checking(M, N))
 }
