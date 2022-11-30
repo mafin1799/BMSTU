@@ -1,0 +1,27 @@
+{{define "index"}}
+{{template "header"}}
+<style>
+    a.text:active, /* активная/посещенная ссылка */
+    a.text:hover,  /* при наведении */
+    a.text {
+        text-decoration: none;
+        color: #ffffff;
+    }
+</style>
+<section id="timeline">
+    {{range .}}
+            <div class="tl-item">
+                <a href="/post/{{.Id}}" class="text">
+                <div class="tl-bg" style="background-image: url(/static/img/{{.Path}})"></div>
+                <div class="tl-year">
+                    <p class="f2 heading--sanSerif">{{.Date}}</p>
+                </div>
+                <div class="tl-content">
+                    <h1>{{.Heading}}</h1>
+                    <p>{{.Text}}</p>
+                </div>
+                </a>
+            </div>
+    {{end}}
+</section>
+{{end}}
