@@ -1,6 +1,0 @@
-CREATE TABLE products(
-  heading TEXT,
-  text TEXT,
-  date TEXT,
-  path TEXT
-);
