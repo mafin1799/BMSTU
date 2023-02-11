@@ -1,9 +1,12 @@
-## Условие лабораторной работы №1
+# ЗАДАНИЕ К ЛАБОРАТОРНОЙ РАБОТЕ № 1
 
->Выполнить шаги, описанные в файле «Тестирование визуализации 3D
-сферы
+> [Выполнить шаги, описанные в файле «Тестирование визуализации 3D
+сферы»](https://disk.yandex.ru/i/qwnAHflv8tCk_A).
 
-
+### В результате вы освоите:
+- создание простейшего приложения, написанного с использованием
+OpenGL в C# (в среде Visual Studio).
+- подключение библиотеки Tao.
 
 ## Листинг кода
 ```
@@ -78,15 +81,19 @@ namespace Tao_OpenGL_Initialization_Test
 
 ```
 
+
+<div class="page"/>
+
 ## Скриншоты
+
 > Перед нажатием
 
-![alt text](../1.png)
+![alt text](https://github.com/mafin1799/BMSTU/blob/main/4term/Computer%20graphics%20algorithms/ЛР_1/1.png?raw=true)
 > После нажатия
-![alt text](../2.png)
 
+![alt text](https://github.com/mafin1799/BMSTU/blob/main/4term/Computer%20graphics%20algorithms/ЛР_1/2.png?raw=true)
+<div class="page"/>
 
-![alt text](https://github.com/[mafin1799]/[BMSTU]/?raw=true)
 ## Примечание
 
 > При загрузке VS, необходимо загрузить компоненты для создания классических приложений .NET
