@@ -5,6 +5,9 @@
 > Курсовая работа/экзамен
 
 Преподаватель: **Лапашина Вера Владимировна** (vera_vla@mail.ru)
+## Лекции
+1. [Лекция 09.02.2023](https://github.com/mafin1799/BMSTU/blob/main/4term/Modeling%20of%20computing%20systems/1_Лекция.md)
+
 
 ## План
 
