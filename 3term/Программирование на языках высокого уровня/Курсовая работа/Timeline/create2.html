@@ -1,0 +1,85 @@
+{{define "view2"}}
+{{template "header"}}
+<form action="/saveArticle2level" id="line" method="post">
+    <div class="row">
+        <h1>Дабавить статью...</h1>
+    </div>
+    <div class="row">
+        <h4 style="text-align:center">Делаем таймлайн</h4>
+    </div>
+    <div class="row input-container">
+        <div class="col-xs-12">
+            <div class="styled-input wide">
+               <select class="" name = "pid" id = "pid">
+                   <option value="Выберите родительскую панель">Выберите родительскую панель</option>
+                   {{ range . }}
+                    <option value= {{ .Id }}> {{ .Heading }}</option>
+                   {{end}}
+               </select>
+            </div>
+        </div>
+        <div class="col-xs-12">
+            <div class="styled-input wide">
+                <input type="text" name="heading" id="heading" required />
+                <label>Заголовок</label>
+            </div>
+        </div>
+
+        <div class="col-xs-12">
+            <div class="styled-input wide">
+                <input type="text" name="date" id="date" required />
+                <label>Хронологическая метка</label>
+            </div>
+        </div>
+        <div class="col-xs-12">
+            <div class="styled-input wide">
+                <textarea name="text" id="text" required></textarea>
+                <label>Описание</label>
+            </div>
+        </div>
+
+        <div class="col-xs-12">
+            <div class="styled-input wide">
+                <input type="file" name="path" id="path" required />
+            </div>
+        </div>
+        <div class="col-xs-12">
+            <div class="styled-input wide">
+                <button class="btn-lrg submit-btn">Добавить</button>
+            </div>
+        </div>
+    </div>
+</form>
+<style>
+    body {
+        background-color: #444442;
+        padding-top: 85px;
+    }
+    option {
+        position: absolute;
+        top: 40px;
+        left: 3px;
+        display: flex;
+        flex-direction: column;
+        width: 650px;
+        height: 40px;
+        background-color: #444442;
+        border: 1px solid #c7ccd1;
+        border-top: none;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        transition: all 0.3s ease-out;
+        opacity: 0;
+        z-index: 8;
+    }
+    select{
+        padding: 30px;
+        border: 0;
+        width: 710px;
+        font-size: 1rem;
+        background-color: #2d2d2d;
+        color: white;
+        border-radius: 4px;
+    }
+</style>
+{{end}}

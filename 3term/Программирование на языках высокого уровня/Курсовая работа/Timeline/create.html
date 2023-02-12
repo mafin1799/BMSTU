@@ -1,0 +1,47 @@
+{{define "view"}}
+{{template "header"}}
+<form action="/save_article" id="line" method="post">
+    <div class="row">
+        <h1>Дабавить статью...</h1>
+    </div>
+    <div class="row">
+        <h4 style="text-align:center">Делаем таймлайн</h4>
+    </div>
+    <div class="row input-container">
+        <div class="col-xs-12">
+            <div class="styled-input wide">
+                <input type="text" name="heading" id="heading" required />
+                <label>Заголовок</label>
+            </div>
+        </div>
+        <div class="col-xs-12">
+            <div class="styled-input wide">
+                <input type="text" name="date" id="date" required />
+                <label>Хронологическая метка</label>
+            </div>
+        </div>
+        <div class="col-xs-12">
+            <div class="styled-input wide">
+                <textarea name="text" id="text" required></textarea>
+                <label>Описание</label>
+            </div>
+        </div>
+        <div class="col-xs-12">
+            <div class="styled-input wide">
+            <input type="file" name="path" id="path" required />
+            </div>
+        </div>
+        <div class="col-xs-12">
+            <div class="styled-input wide">
+            <button class="btn-lrg submit-btn">Добавить</button>
+            </div>
+        </div>
+    </div>
+</form>
+<style>
+    body {
+        background-color: #444442;
+        padding-top: 85px;
+    }
+</style>
+{{end}}
