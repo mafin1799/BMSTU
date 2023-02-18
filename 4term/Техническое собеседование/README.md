@@ -8,8 +8,8 @@
 ---
 
 #### В общем случае web-сервис состоит из:
-1. **Frontend server**
-2. **Backend server**
+1. **Frontend**
+2. **Backend**
 3. **Database**
 4. **File Server**
 
