@@ -4,8 +4,6 @@
 
 Преподаватель: **Афанасьева Виктория Викторовна** (homeforme2015@yandex.ru)
 
-## Лекции
-1. [Лекция №1](https://github.com/mafin1799/BMSTU/blob/main/4term/Computer%20graphics%20algorithms/Лекция_1.md)
 ## План
 
 Список работ со ссылками на разделы репозитория
