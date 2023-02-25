@@ -1,0 +1,4 @@
+C:\Users\mafin\Documents\bmstu\BMSTU\4term\Computer graphics algorithms\ЛР_3\obj\Debug\2.1.csproj.AssemblyReference.cache
+C:\Users\mafin\Documents\bmstu\BMSTU\4term\Computer graphics algorithms\ЛР_3\obj\Debug\2.1.csproj.SuggestedBindingRedirects.cache
+C:\Users\mafin\Documents\bmstu\BMSTU\4term\Computer graphics algorithms\ЛР_3\obj\Debug\_2._1.Form1.resources
+C:\Users\mafin\Documents\bmstu\BMSTU\4term\Computer graphics algorithms\ЛР_3\obj\Debug\2.1.csproj.GenerateResource.cache
