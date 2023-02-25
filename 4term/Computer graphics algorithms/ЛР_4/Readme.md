@@ -329,6 +329,6 @@ namespace WindowsFormsApp1
 ```
 
 ## Скриншот
-![alt text](https://github.com/mafin1799/BMSTU/blob/main/4term/Computer%20graphics%20algorithms/ЛР_4/Снимок%20экрана%20(18).png?raw=true)
+![alt text](https://github.com/mafin1799/BMSTU/blob/main/4term/Computer%20graphics%20algorithms/ЛР_4/1.png?raw=true)
 
-![alt text](https://github.com/mafin1799/BMSTU/blob/main/4term/Computer%20graphics%20algorithms/ЛР_4/Снимок%20экрана%20(19).png?raw=true)
+![alt text](https://github.com/mafin1799/BMSTU/blob/main/4term/Computer%20graphics%20algorithms/ЛР_4/2.png?raw=true)
