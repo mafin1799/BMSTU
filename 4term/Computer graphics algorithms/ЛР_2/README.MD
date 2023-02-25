@@ -145,9 +145,9 @@ namespace _2._1
 
 > Перед нажатием
 
-![alt text](https://github.com/mafin1799/BMSTU/blob/main/4term/Computer%20graphics%20algorithms/%D0%9B%D0%A0_2/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(1).png)
+![alt text](https://github.com/mafin1799/BMSTU/blob/main/4term/Computer%20graphics%20algorithms/%D0%9B%D0%A0_2/1.png)
 > После нажатия
 
-![alt text](https://github.com/mafin1799/BMSTU/blob/main/4term/Computer%20graphics%20algorithms/%D0%9B%D0%A0_2/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(2).png)
+![alt text](https://github.com/mafin1799/BMSTU/blob/main/4term/Computer%20graphics%20algorithms/%D0%9B%D0%A0_2/2.png)
 <div class="page"/>
 
