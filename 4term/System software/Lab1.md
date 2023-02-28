@@ -46,6 +46,12 @@ grep "^[[:upper:]]" - Grep это утилита командной строки
 wc параметры файлы -l Вывод количества строк
 
 cat errors.txt | tr ' ' '\n' | grep "^[[:upper:]]"|wc -l
+
+
+cat test.txt |iconv -f koi8-r -t utf-8 | tr ' ' '\n' |  grep "^[[:upper:]]" | wc
+
+
+
 2
 ```
 
